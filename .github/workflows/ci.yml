@@ -17,11 +17,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Set up Node.js environment
+      # Set up Node.js (specify Node.js 20 explicitly)
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Adjust to your desired Node.js version
+          node-version: '20'  # Explicitly use Node.js version 20
 
       # Install dependencies
       - name: Install dependencies
