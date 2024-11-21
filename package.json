@@ -1,0 +1,15 @@
+{
+  "name": "vite-testing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "vitest": "^2.1.5"
+  }
+}
